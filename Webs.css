@@ -1,0 +1,90 @@
+*{
+  font-family: 'Varela Round', sans-serif;
+}
+div.wrapper{
+grid-template-columns: .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr  .5fr  .5fr  .5fr .5fr ;
+display:grid;
+grid-auto-rows:minmax(90px,auto);
+grid-gap: 1em;
+}
+.Encabezado{
+  grid-column: 2/12;
+  background: red;
+
+}
+/*primer cuadro el que tiene el gif*/
+.cuadro1{
+  background: #dbdbdb;
+  font-family: ;
+  grid-column: 1/6;
+  grid-row: 2/4;
+  margin-left: -10px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+.cuadro1:hover{
+
+  box-shadow:0 14px 28px rgba(80,80,80,100);
+}
+/*el gif que esta con el cuadro*/
+.gifDelCuandro{
+  grid-column: 5/6;
+  grid-row: 2/4;
+}
+/*esto es para centrar las flechas dentro de los cuadros*/
+.centerImg{
+  margin-left: 110px;
+}
+.tituloAbajo{
+  grid-column: 1/13;
+  grid-row: 5/6;
+  text-align: center;
+}
+.ventajas{
+
+}
+
+.Calidad{
+  grid-column: 2/5;
+  grid-row: 6/7;
+  background: #dbdbdb;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 1px 3px rgba(0,0,0,1), 0 1px 2px rgba(0,0,0,1);
+  transition: 4.5s cubic-bezier(.25,.8,.25,1);
+}
+.Calidad:hover{
+  grid-row: 6/9;
+  transition: 4.5s;
+}
+.Asesoria{
+  grid-column: 5/7;
+  grid-row: 6/7;
+  background: #dbdbdb;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 1px 3px rgba(0,0,0,1), 0 1px 2px rgba(0,0,0,1);
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+.Precio{
+  grid-column: 7/11;
+  grid-row: 6/7;
+  background: #dbdbdb;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 1px 3px rgba(0,0,0,1), 0 1px 2px rgba(0,0,0,1);
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+.pieDePagina{
+
+}
