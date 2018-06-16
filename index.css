@@ -13,7 +13,7 @@
   grid-gap: 1em;
 }
 .Encabezado{
-  background: black;
+  background: red;
   grid-column: 1/13;
   grid-row: 1/2;
 }
