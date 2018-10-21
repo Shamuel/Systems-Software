@@ -1,0 +1,21 @@
+body{
+  /* background-color:  */
+  background: linear-gradient(to bottom, red, black);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.Title{
+margin-left: 250px;
+font-size: 40px;
+font-weight: bold;
+color: rgb(163, 0, 0);
+}
+
+.text{
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: bold;
+  color:rgb(112, 3, 3);
+}
