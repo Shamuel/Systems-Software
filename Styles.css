@@ -1,0 +1,8 @@
+body{
+  /* background-color:  */
+  background: linear-gradient(to bottom, red, black);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
