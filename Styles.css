@@ -6,3 +6,18 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.Title{
+margin-left: 250px;
+font-size: 40px;
+font-weight: bold;
+color:rgb(156, 20, 20);
+
+}
+
+.text{
+  margin-left: 300px;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+  color:rgb(112, 3, 3);
+}
